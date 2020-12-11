@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:375px) {
+    .profile-card {
+        width: 274px;
+    }
+    img.profile-pic {
+        left: 91px;
+    }
+    .container {
+        background-size: cover, cover;
+        background-position: -249px -371px, 83px 383px;
+    }
+}
